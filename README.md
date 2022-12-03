@@ -15,3 +15,7 @@ An example of defining synthetic beans within CDI Lite. (This example could also
 ## se-run
 
 Run a Jakarta EE Core profile application on Java SE. So no longer the requirement of having a WAR file that is handled by a runtime.
+
+## Demo app with OpenLiberty
+
+Demo application with OpenLiberty (currently with beta version of OpenLiberty)
