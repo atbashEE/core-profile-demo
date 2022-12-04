@@ -1,3 +1,7 @@
+[![License](https://img.shields.io/:license-Apache2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/be.atbash.jakarta/core-profile-tester/badge.svg)](https://maven-badges.herokuapp.com/maven-central/be.atbash.jakarta/core-profile-tester)  
+
 # Jakarta EE Core Profile tester
 
 Within the Core profile, CDI lite and CDI full are special cases. There is only 1 specification and 1 API jar although only CDI lite is supported in the Core profile and CDI full in the Web and Full profile.
