@@ -19,3 +19,7 @@ Run a Jakarta EE Core profile application on Java SE. So no longer the requireme
 ## Demo app with OpenLiberty
 
 Demo application with OpenLiberty (currently with beta version of OpenLiberty)
+
+# Slides
+
+Slides of the Jakarta One Presentation "Exploring the new Jakarta EE Core Profile" can be found in the pdf _core-profile_jakartaOne2022_.

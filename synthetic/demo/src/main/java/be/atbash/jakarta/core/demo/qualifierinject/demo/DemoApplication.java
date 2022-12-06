@@ -22,8 +22,8 @@ public class DemoApplication {
 
     public static void main(String[] args) {
         try (SeContainer container = SeContainerInitializer.newInstance().initialize()) {
-            DemoBean orchestra = container.select(DemoBean.class).get();
-            orchestra.doSomething("JakartaOne Livestream");
+            DemoBean bean = container.select(DemoBean.class).get();
+            bean.doSomething("JakartaOne Livestream");
 
         }
     }
