@@ -20,6 +20,11 @@ Run a Jakarta EE Core profile application on Java SE. So no longer the requireme
 
 Demo application with OpenLiberty (currently with beta version of OpenLiberty)
 
+## Run Jakarta Core profile Application with Atbash runtime
+
+The directory _atbash-run_ contains a project where a Jakarta EE 10 Core profile application is executed in Java SE with the help of Atbash Runtime.  The Runner mode allows to define the Application class (or JAX-RS resource classes), define the configuration and run the application. It is using under the hood the module system of Atbash Runtime.
+
+
 # Slides
 
 Slides of the Jakarta One Presentation "Exploring the new Jakarta EE Core Profile" can be found in the pdf _core-profile_jakartaOne2022_.
