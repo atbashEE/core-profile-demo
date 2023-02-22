@@ -60,9 +60,11 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <finalName>se-run</finalName>
+    </build>
     <profiles>
         <profile>
-            <!-- here mainly to know the total size of the app.-->
             <id>exec</id>
             <build>
                 <plugins>
@@ -80,7 +82,10 @@
                                     <transformers>
                                         <transformer
                                                 implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                            <mainClass>be.atbash.jakarta.core.demo.JakartaApplication.main</mainClass>
+                                            <mainClass>be.atbash.jakarta.core.demo.JakartaApplication</mainClass>
+                                        </transformer>
+                                        <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+                                            <resource>META-INF/services/jakarta.ws.rs.ext.RuntimeDelegate</resource>
                                         </transformer>
                                     </transformers>
                                 </configuration>

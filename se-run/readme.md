@@ -13,3 +13,13 @@ Have a look at the _pom.xml_ file for the required dependencies. We add Jersey i
 ## Start application
 
 The start of the application is performed by the class `JakartaApplication`. Instead of just providing an instance of the `Application` class, which would be `DemoApplication`, we make use of the `ResourceConfig` of Jersey so that we can have the automated scanning for JAX-RS resource class instead of defining them through the `getClasses()` method in the `Application` class.
+
+## Build executable jar
+
+To build an executable jar, execute 
+
+```
+mvn clean package -Pexec  
+```
+
+which build a jar which you can use to run your application outside the IDE.
